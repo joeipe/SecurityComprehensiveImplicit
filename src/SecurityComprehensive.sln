@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleA.API", "SimpleA.API\SimpleA.API.csproj", "{D2EF7BB1-0062-4C58-8C62-7A0130D87427}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneAndOnly.IDP", "OneAndOnly.IDP\OneAndOnly.IDP.csproj", "{224E3A30-C3F0-4E03-869B-C064F9568BCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2EF7BB1-0062-4C58-8C62-7A0130D87427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EF7BB1-0062-4C58-8C62-7A0130D87427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2EF7BB1-0062-4C58-8C62-7A0130D87427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EF7BB1-0062-4C58-8C62-7A0130D87427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224E3A30-C3F0-4E03-869B-C064F9568BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224E3A30-C3F0-4E03-869B-C064F9568BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224E3A30-C3F0-4E03-869B-C064F9568BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224E3A30-C3F0-4E03-869B-C064F9568BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E22E06D9-A3C2-4AF0-8EEA-68237B274C52}
+	EndGlobalSection
+EndGlobal
