@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleA.API", "SimpleA.API\SimpleA.API.csproj", "{D2EF7BB1-0062-4C58-8C62-7A0130D87427}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleA.API", "SimpleA.API\SimpleA.API.csproj", "{D2EF7BB1-0062-4C58-8C62-7A0130D87427}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneAndOnly.IDP", "OneAndOnly.IDP\OneAndOnly.IDP.csproj", "{224E3A30-C3F0-4E03-869B-C064F9568BCC}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "SimpleB.API", "SimpleB.API\SimpleB.API.njsproj", "{D4E6BFBA-3976-4053-8B70-AB66EDE866FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{224E3A30-C3F0-4E03-869B-C064F9568BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{224E3A30-C3F0-4E03-869B-C064F9568BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{224E3A30-C3F0-4E03-869B-C064F9568BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E6BFBA-3976-4053-8B70-AB66EDE866FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E6BFBA-3976-4053-8B70-AB66EDE866FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E6BFBA-3976-4053-8B70-AB66EDE866FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E6BFBA-3976-4053-8B70-AB66EDE866FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

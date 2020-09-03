@@ -1,0 +1,15 @@
+<h1>Course</h1>
+<table class="table table-striped">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let course of courses">
+        <th scope="row">{{ course.id }}</th>
+        <td>{{ course.name }}</td>
+      </tr>
+    </tbody>
+</table>

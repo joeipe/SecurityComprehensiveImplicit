@@ -6,6 +6,7 @@ import { WeatherComponent } from './weather/weather.component';
 import { SigninRedirectCallbackComponent } from './auth/signin-redirect-callback.component';
 import { SignoutRedirectCallbackComponent } from './auth/signout-redirect-callback.component';
 import { UnauthorizedComponent } from './unauthorized/unauthorized.component';
+import { CourseComponent } from './course/course.component';
 
 
 
@@ -15,7 +16,8 @@ import { UnauthorizedComponent } from './unauthorized/unauthorized.component';
     WeatherComponent,
     SigninRedirectCallbackComponent,
     SignoutRedirectCallbackComponent,
-    UnauthorizedComponent
+    UnauthorizedComponent,
+    CourseComponent
   ],
   imports: [
     ModulesRoutingModule,

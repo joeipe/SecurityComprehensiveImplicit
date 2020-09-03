@@ -1,0 +1,14 @@
+{
+  "name": "simple-b.api",
+  "version": "0.0.0",
+  "description": "SimpleB.API",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
+  }
+}
