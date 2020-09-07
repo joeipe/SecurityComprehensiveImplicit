@@ -28,6 +28,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="middleware\auth.js" />
     <Content Include="routes\courses.js" />
     <Content Include="server.js" />
     <Content Include="package.json" />
@@ -35,6 +36,7 @@
     <Content Include="startup\routes.js" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="middleware\" />
     <Folder Include="routes\" />
     <Folder Include="startup\" />
   </ItemGroup>
