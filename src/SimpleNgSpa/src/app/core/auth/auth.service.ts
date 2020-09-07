@@ -18,7 +18,7 @@ export class AuthService {
       client_id: 'simplespaclient',
       response_type: 'code',
       // ?UsePkce: ,
-      scope: 'openid profile address roles simpleaapi',
+      scope: 'openid profile address roles simpleaapi simplebapi',
       redirect_uri: `http://localhost:4200/signin-callback`,
       post_logout_redirect_uri: `http://localhost:4200/signout-callback`,
 

@@ -14,7 +14,7 @@
     const stsSettings = {
       authority: "https://localhost:5001/",
       client_id: "simplespaclient",
-      scope: 'openid profile address roles simpleaapi',
+      scope: 'openid profile address roles simpleaapi simplebapi',
       response_type: "code"
     };
     new Oidc.UserManager(stsSettings).signinSilentCallback().catch(error => {
