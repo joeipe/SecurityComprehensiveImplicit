@@ -9,7 +9,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "node-accesstoken-validation": "^1.0.5",
+    "express-jwt": "^6.0.0",
+    "jwks-rsa": "^1.9.0",
     "winston": "^3.3.3"
   }
 }

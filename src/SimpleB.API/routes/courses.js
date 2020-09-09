@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const auth = require('../middleware/auth')
 
 const courses = [
     { id:1, name:'course1'},
@@ -7,7 +8,7 @@ const courses = [
     { id:3, name:'course3'},
 ];
 
-router.get('/', (req, res) => {
+router.get('/', auth, (req, res) => {
     res.send(courses);
 });
 
