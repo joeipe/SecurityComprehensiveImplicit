@@ -22,8 +22,8 @@ namespace OneAndOnly.IDP
         public static IEnumerable<ApiScope> ApiScopes =>
             new ApiScope[]
             {
-                new ApiScope("simpleaapi", "Full access to Simple A API"),
-                new ApiScope("simplebapi", "Full access to Simple B API")
+                new ApiScope("simpleaapi.fullaccess", "Full access to Simple A API"),
+                new ApiScope("simplebapi.fullaccess", "Full access to Simple B API")
             };
 
         public static IEnumerable<ApiResource> ApiResources =>
@@ -33,14 +33,14 @@ namespace OneAndOnly.IDP
                 {
                     Name = "simpleaapi",
                     DisplayName = "Simple A API",
-                    Scopes = { "simpleaapi" },
+                    Scopes = { "simpleaapi.fullaccess" },
                     UserClaims = new List<string>() { "role", "given_name" }
                 },
                 new ApiResource()
                 {
                     Name = "simplebapi",
                     DisplayName = "Simple B API",
-                    Scopes = { "simplebapi" },
+                    Scopes = { "simplebapi.fullaccess" },
                     UserClaims = new List<string>() { "role" }
                 }
             };
@@ -63,8 +63,8 @@ namespace OneAndOnly.IDP
                         IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.Address,
                         "roles",
-                        "simpleaapi",
-                        "simplebapi"
+                        "simpleaapi.fullaccess",
+                        "simplebapi.fullaccess"
                     },
                 }
             };
